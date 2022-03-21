@@ -2,21 +2,21 @@
                                                                    
 Function that produces output according to a format.               
                                                                    
-**Prototype: int printf(const char *format, ...)**                     
+Prototype: int printf(const char *format, ...)                  
                                                                    
-## ¿What is printf?**                                            
+## ¿What is printf?                                           
                                                                    
 The printf function (the name comes from “print formatted”) prints a string on the screen using a “format string” that includes the instructions to mix several strings and produce the final string to be printed on the screen.
 In this project, we are going to share a customized version of printf, developed from the knowledge acquired in the Holberton School cohort 17.
 
 **Examples**
-***String*** - _printf("%s\n", 'Diana&Pablo') 
+- ***String*** - _printf("%s\n", 'Diana&Pablo') 
               **Output** Diana&Pablo 
-***Character*** - _printf("%c\n", 'D') 
+- ***Character*** - _printf("%c\n", 'D') 
               **Output** D
-***Integer*** - _printf("%i\n", 33) 
+- ***Integer*** - _printf("%i\n", 33) 
               **Output** 33
-***Double*** - _printf("%d\n", 1988) 
+- ***Double*** - _printf("%d\n", 1988) 
               **Output** 1988
               
 ___________________________________________________________________________________________________________________              
@@ -43,9 +43,9 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________
 
 **##Mandatory Tasks**
-[x] Write a function that produces output according with conversion specifiers ***c***, ***s***, and ***%***.
-[x] Handle conversion specifiers ***d***, ***i***.
-[x] Create a man page for your function.
+- [x] Write a function that produces output according with conversion specifiers ***c***, ***s***, and ***%***.
+- [x] Handle conversion specifiers ***d***, ***i***.
+- [x] Create a man page for your function.
 
 
 
