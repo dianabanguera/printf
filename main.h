@@ -26,5 +26,6 @@ int print_i(va_list i);
 int print_d(va_list d);
 int print_percent(va_list %);
 int (*specifiers(const char *format)(va_list);
+int _strlen_recursion(char *s);
 
 #endif
