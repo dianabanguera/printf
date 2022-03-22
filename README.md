@@ -21,7 +21,7 @@ In this project, we are going to share a customized version of printf, developed
               
 ___________________________________________________________________________________________________________________              
 
-### Requierments**
+### Requierments
 1. Allowed editors: vi, vim, emacs
 2. All your files will be compiled on Ubuntu 20.04 LTS using gcc
 ***$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c*** 
@@ -42,7 +42,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________
 
-**##Mandatory Tasks**
+##Mandatory Tasks
 - [x] Write a function that produces output according with conversion specifiers ***c***, ***s***, and ***%***.
 - [x] Handle conversion specifiers ***d***, ***i***.
 - [x] Create a man page for your function.
