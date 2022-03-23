@@ -2,7 +2,9 @@
                                                                    
 Function that produces output according to a format.               
                                                                    
-Prototype: int printf(const char *format, ...)                  
+Prototype: int printf(const char *format, ...)
+
+![Printf](https://drive.google.com/file/d/1nJwQ_AjsObeq15PtJcdtzf0zXl175dJ3/view)                  
                                                                    
 ## ¿What is printf?                                           
                                                                    
@@ -42,7 +44,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________________________
 
-##Mandatory Tasks
+## Mandatory Tasks
 - [x] Write a function that produces output according with conversion specifiers ***c***, ***s***, and ***%***.
 - [x] Handle conversion specifiers ***d***, ***i***.
 - [x] Create a man page for your function.
