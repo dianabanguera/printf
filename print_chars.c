@@ -7,7 +7,7 @@
  */
 int print_c(va_list c);
 {
-	char character = (char)va_arg(c, int);
+	char character = (char)va_arg(c, int)
 
 	_putchar(character);
 	return (1);
@@ -26,6 +26,7 @@ int _strlen_recursion(char *s)
 	}
 	return (1 + _strlen_recursion(s + 1));
 }
+
 /**
  * print_string - function print a string
  * @s: string to print
