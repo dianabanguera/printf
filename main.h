@@ -10,7 +10,7 @@
 /**
  * struct print - This structure, prints diferent types
  * @p: type to print
- * @m: function to print
+ * @f: function to print
  */
 typedef struct print
 {
