@@ -5,15 +5,15 @@
  *
  *
  */
-int (*specifiers(const char *format)(va_list)
+int (*specifiers(const char *format))(va_list)
 {
 	print_p m[] = {
-		{"c", print_c};
-		{"s", print_s};
-		{"d", print_d};
-		{"i", print_i};
-		{"%", print_percent};
-		{NULL , NULL};
+		{"c", print_c},
+		{"s", print_s},
+		{"d", print_d},
+		{"i", print_i},
+		{"%", print_percent},
+		{NULL, NULL},
 	};
 
 	int i = 0;
