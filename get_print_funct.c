@@ -2,8 +2,8 @@
 
 /**
  * specifiers - select the coorect format
- *
- *
+ * @format: format to will selec
+ * Return: selected format
  */
 int (*specifiers(const char *format))(va_list)
 {
@@ -13,7 +13,7 @@ int (*specifiers(const char *format))(va_list)
 		{"d", print_d},
 		{"i", print_i},
 		{"%", print_percent},
-		{NULL, NULL},
+		{NULL, NULL}
 	};
 
 	int i = 0;
