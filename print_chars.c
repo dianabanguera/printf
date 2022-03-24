@@ -33,14 +33,19 @@ int _strlen_recursion(char *s)
  * @s: string to print
  * Return: size of string
  */
-int print_s(va_list s)
+int print_s(va_list s)                                             
 {
+	int counter = 0;
 	int i = 0;
-	char *str = va_arg(s, char *);
+	int tmp = 0;
+	char *strg = va_arg(s, char *);
 
-	for (; str[i] != '\0'; i++)
+	if (!strg)
+		strg = ("null");
+	for (i = 0; strg[i]; i++)
 	{
-		putchar(str[i]);
+		tmp = write(1, &strg[i], 1);
+	        counter += tmp;
 	}
-	return (strlen(str));
-}
+        return (0);
+}  
