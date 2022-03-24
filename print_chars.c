@@ -27,13 +27,12 @@ int _strlen_recursion(char *s)
 	return (1 + _strlen_recursion(s + 1));
 }
 
-
 /**
- * print_string - function print a string
+ * print_s - function print a string
  * @s: string to print
  * Return: size of string
  */
-int print_s(va_list s)                                             
+int print_s(va_list s)
 {
 	int counter = 0;
 	int i = 0;
@@ -45,7 +44,7 @@ int print_s(va_list s)
 	for (i = 0; strg[i]; i++)
 	{
 		tmp = write(1, &strg[i], 1);
-	        counter += tmp;
+		counter += tmp;
 	}
-        return (0);
-}  
+	return (0);
+}
