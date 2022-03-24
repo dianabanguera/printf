@@ -28,7 +28,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * print_s - function print a string
+ * print_s - function that print a string
  * @s: string to print
  * Return: size of string
  */
@@ -40,7 +40,7 @@ int print_s(va_list s)
 	char *strg = va_arg(s, char *);
 
 	if (!strg)
-		strg = ("null");
+		strg = "(null)";
 	for (i = 0; strg[i]; i++)
 	{
 		tmp = write(1, &strg[i], 1);
