@@ -48,6 +48,11 @@ int _printf(const char *format, ...)
 			_putchar(format[index]);
 			contador++;
 		}
+		if (format[index] == 92 && format[index + 1] == 110)
+		{
+			_putchar('\n');
+			break;
+		}
 		index++;
 	}
 	va_end(object);
