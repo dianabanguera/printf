@@ -10,6 +10,7 @@ int (*specifiers(const char *format))(va_list)
 	print_p m[] = {
 		{"c", print_c},
 		{"s", print_s},
+		{"%", percent},
 		{NULL, NULL}
 	};
 
