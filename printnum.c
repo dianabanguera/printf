@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * count - cuenta tamaño 
+ * count - cuenta tamaño
  * @number: number
  * Return: degits of number
  *
@@ -21,7 +21,7 @@ int count(int number)
 	return (num);
 }
 /**
- * print_num - print number
+ * print_number - print number
  * @num: number to print
  */
 void print_number(int num)
@@ -41,17 +41,18 @@ void print_number(int num)
 
 	_putchar((comparator % 10) + '0');
 }
-
 /**
- *
+ * print_int - call functions
+ * @id: arguments
+ * Return: digits
  */
 int print_int(va_list id)
 {
-       int num = va_arg(id, int);
-       int cont = count(num);
+	int num = va_arg(id, int);
+	int cont = count(num);
 
-       if (num <= 0)
-	       cont++;
-       print_number(num);
-       return (cont);
+	if (num <= 0)
+		cont++;
+	print_number(num);
+	return (cont);
 }
