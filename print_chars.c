@@ -46,5 +46,5 @@ int print_s(va_list s)
 		tmp = write(1, &strg[i], 1);
 		counter += tmp;
 	}
-	return (0);
+	return (counter);
 }
