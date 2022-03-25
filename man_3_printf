@@ -17,9 +17,8 @@ _printf \- Function that produces output according to a format.
 Prints formated input to standard output
 
 Detect the % character in
-
 .I format
- string and replace next character with the value of the matching var in args.
+string and replace next character with the value of the matching var in args.
 
 .B Return value
 
