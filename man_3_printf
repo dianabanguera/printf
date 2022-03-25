@@ -1,0 +1,55 @@
+.TH man_3_printf "Hoberton School, Cohort 17" March 25, 2022 "_printf man page"
+
+.SH NAME
+
+_printf \- Function that produces output according to a format.
+
+.SH SYNOPSIS
+
+.B int printf (const char *\fIformat\fB, ..);
+
+.SH DESCRIPTION
+
+.B _printf()
+
+Prints formated input to standard output
+
+Detect the % character in
+
+.I  format
+
+ string and replace next character with the value of the matching var in args.
+
+.B Return value
+
+The value in args must match the type defined by the flag, otherwise will return NULL.
+
+.B The conversion specifier
+
+A character that specifies the type of conversion to be applied.
+
+.B c
+
+The \fIint\fR argument is converted to a \fIchar\fR, and the resulting is a charcter that is gonna be written.
+
+.B s
+
+The \fIconst char *\fR is expected to be a pointer to an array of character type (pointer to a string). Characters from the array are written up to a terminating null byte, but do ot include the terminating null byte.
+
+.B d, i
+
+The \fIint\fR argument is converted to signed decimal notation.
+
+.B %
+
+A % is written. There ir no argument to be converted. The complete conversion specification is '%%'
+
+.SH SEE ALSO
+
+printf(3)
+
+The \fB_printf()\fR function emulates functionality of the C standard library function \fBprintf()\fR. This man page borrows from the corresponding linux man page printf(3).
+
+.SH AUTHORS
+
+Diana Marcela Banguera and Pablo Emilio Agudelo
