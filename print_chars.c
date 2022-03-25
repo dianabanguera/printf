@@ -48,3 +48,13 @@ int print_s(va_list s)
 	}
 	return (0);
 }
+/**
+ * percent - print symbol percent
+ * @object: arguments in _printf
+ * Return: porcent
+ */
+int percent(va_list object)
+{
+	(void)object;
+	return (_putchar('%'));
+}
