@@ -16,8 +16,7 @@ Prints formated input to standard output
 
 Detect the % character in
 
-.I  format
-
+.I format
  string and replace next character with the value of the matching var in args.
 
 .B Return value
@@ -42,7 +41,7 @@ The \fIint\fR argument is converted to signed decimal notation.
 
 .B %
 
-A % is written. There ir no argument to be converted. The complete conversion specification is '%%'
+A % is written. There is no argument to be converted. The complete conversion specification is '%%'
 
 .SH SEE ALSO
 
