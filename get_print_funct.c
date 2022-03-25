@@ -19,8 +19,8 @@ int (*specifiers(const char *format))(va_list)
 	{
 		if (*(m[i].p) == *format)
 		{
-			break;
+			return (m[i].f);
 		}
 	}
-	return (m[i].f);
+	return (NULL);
 }
