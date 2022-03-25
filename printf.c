@@ -36,6 +36,11 @@ int _printf(const char *format, ...)
 					contador++;
 					_putchar(format[index]);
 				}
+				else
+				{
+					contador++;
+					_putchar(format[index]);
+				}
 			}
 		}
 		else if (format[index] != '\0')
