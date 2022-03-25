@@ -11,14 +11,22 @@ int _printf(const char *format, ...)
 	int (*funciones)(va_list);
 
 	va_start(object, format);
+	if (!format || (format[0] == '%' && !format[1]))
+		return (-1);
+	if (format[0] == '%' && format[1] == ' ' && !format[2])
+		return (-1);
 	while (format[index])
 	{
-		if (format[index] == '%' && format[index + 1] == '%')
+		if (format[index] != '%')
+		{
+			_putchar(format[index]);
+			contador++;
+		}
+		else if (format[index] == '%' && format[index + 1] == '%')
 		{
 			_putchar('%');
 			contador++;
-			index += 2;
-			continue;
+			index++;
 		}
 		else if (format[index] == '%')
 		{
@@ -26,32 +34,12 @@ int _printf(const char *format, ...)
 			if (funciones != NULL)
 			{
 				contador += funciones(object);
-				index += 2;
-				continue;
+				index++;
 			}
 			else
 			{
-				if (format[index] == '%' && format[index + 1] == '\0')
-				{
-					contador++;
-					_putchar(format[index]);
-				}
-				else
-				{
-					contador++;
-					_putchar(format[index]);
-				}
+				_printf("%%%c", format[index + 1]);
 			}
-		}
-		else if (format[index] != '\0')
-		{
-			_putchar(format[index]);
-			contador++;
-		}
-		if (format[index] == 92 && format[index + 1] == 110)
-		{
-			_putchar('\n');
-			break;
 		}
 		index++;
 	}
