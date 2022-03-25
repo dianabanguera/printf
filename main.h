@@ -22,10 +22,12 @@ int _printf(const char *format, ...);
 int _putchar(char c);
 int print_c(va_list c);
 int print_s(va_list s);
-int print_num(va_list num);
-int count(int number);
 int print_int(va_list id);
-int print_percent(va_list p);
+void print_number(int num);
+int count(int number);
+int print_i(va_list i);
+int print_d(va_list d);
+int percent(va_list object);
 int (*specifiers(const char *format))(va_list);
 int _strlen_recursion(char *s);
 

@@ -24,7 +24,7 @@ int count(int number)
  * print_num - print number
  * @num: number to print
  */
-int print_num(va_list num)
+void print_number(int num)
 {
 	unsigned int comparator;
 
@@ -37,9 +37,11 @@ int print_num(va_list num)
 		comparator = num;
 
 	if (comparator / 10)
-		print_num(comparator / 10);
+		print_number(comparator / 10);
+
 	_putchar((comparator % 10) + '0');
 }
+
 /**
  *
  */
@@ -48,10 +50,8 @@ int print_int(va_list id)
        int num = va_arg(id, int);
        int cont = count(num);
 
-       if (n <= 0)
-       {
+       if (num <= 0)
 	       cont++;
-	       print_number(num);
-       }
+       print_number(num);
        return (cont);
 }

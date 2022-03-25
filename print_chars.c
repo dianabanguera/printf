@@ -51,7 +51,7 @@ int print_s(va_list s)
 /**
  * percent - print symbol percent
  * @object: arguments in _printf
- * Return: porcent
+ * Return: percent
  */
 int percent(va_list object)
 {

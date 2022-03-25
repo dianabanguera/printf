@@ -6,7 +6,7 @@
  */
 int _printf(const char *format, ...)
 {
-	int index = 0, contador = 0;
+	int index = 0, contador = 0, a;
 	va_list object;
 	int (*funciones)(va_list);
 
@@ -31,15 +31,9 @@ int _printf(const char *format, ...)
 		else if (format[index] == '%')
 		{
 			funciones = specifiers(&format[index + 1]);
-			if (funciones != NULL)
-			{
-				contador += funciones(object);
-				index++;
-			}
-			else
-			{
-				_printf("%%%c", format[index + 1]);
-			}
+			a = (funciones) ? funciones(object) : _printf("%%%c", format[index + 1]);
+			contador += a;
+			index++;
 		}
 		index++;
 	}
