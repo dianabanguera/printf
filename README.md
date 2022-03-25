@@ -4,7 +4,7 @@ Function that produces output according to a format.
                                                                    
 <h3> Prototype: int printf(const char *format, ...) </h3>
 
-![Printf](https://lh3.googleusercontent.com/XsCvzDZqEi_jKw864glIaaZsZgc1uoRM21vfxWzWLmlG6Ru7FB0HdPJMrliQZh3PZmndyT2KVbsfOE1SC9RxNd5SajsRqtO4XHLhCrBTd19FaJA_2R1go53Q212AS_xwhC_8sthT7tVs_t7WNwYoUBJqdpClYth_FiZnNYf7WRwgWQ0L31gNozA1JIAEsIWF3nqY1guBRZQZeuAZ0A0nNSsxIaf9DE796Cu1lmk09sDU5AtbqvzGO-Oz1znoJxbvE6e0RO5OzEcvYrU_f3D1lsdZYDGg95uMQ_w9Dmz4EUaii9d3rI61b6IKESF89NeDuBnGMM6QyVJy756kqrf2xBWVQVmpQC9RM4MbGXtzbvXwf8dojp6kU3ezzUTAVHq8KyYxdzPQeDtl8gPkByblW8ov2NC32dzfQAb22fl9zAZCN7PoVZdYpu5slDHUDGjH2TybdYJfP_JBVO4mW7BmaoqRIEAZ8o0NTzvNRPrjpTWiYIDRl3Zb3rQCiIOR9LIdg2yj_iwOqtCWr8lUFl2e-jkSd-N03Pn4Ink1cq_Jk-z4lv6SaWEPE4IKUC8mSq6k78Wcz8bruTPDjnNeahmSlAZytRN4L0fkhRRz21SWhZKzxU9Rhl9kZZnuMk3gjDXDCLsALPxKjP7BRr7Sj7iICyOfz9aLj5wX3jPw8-8n41FKqT3a8w_jil870Xn_sWZotYz8jXHHOE5NO3NE7qEskpRSZuxvPph9ph9AzMVmHyvYizBHKbl5Ie2vrEP3C0gS5lc4WMD_hjbEeKlwesAsHbxGwVnAa_0=w350-h155-no?authuser=0) 
+![Printf]( https://lh3.googleusercontent.com/sj4l7zQer1A7wydHvZySRW2PeQ4QwEyCf99v36oCEY0i0pxfOnTs0DI0IoP938z5CCoBZmvnAcYtdnzg7Une_2OXrGQqsjjtHsTJfbbXIp9vmM_-lkk8b7qi99qKdHGAn0q71d8CBuOxNPuuCUZ2ksEEJh7bYui8efki6lMR9DGOAcsNOqJX0eKuwVvErJfn1piqfZUdXJkk0c1KbZ3OkOuiYRUmRq1E0FHPyjFTrmOisoAmrtXLbyS0w8RpOTs9gN0RyHclz7SEI3U-C_a8HAPcWy3lryInb-CEFteERuNBiOq6Yz0mWT_gzENH52gu2cyu9MLP3kgkxjVuuhzCSve_UyeqPYE-f2KUsstg0c4WLXbWOj1yVELg5SvCyjstAQRk4l_zVt_aQUEpRp4_Xb4J9G5WAqifv7sayxn-5mCYErYxA2n677Ge5mau2q9hEKfJJj7G6qYROUzhVdQwzAUx7LoE8PdZsCkbeJOchi5xrhj78G-D8K_EX85wYbRWBjmNsmIRz2iCPUk54-XRebwSw1nHZvOR3KdojgquoIshs-Q75ezQhGsDo0Dd5yYcN58UNQzkX7KoH1lGzCWOto1IOBAwP2TOXdiGtrJwsUBUMxpFPzyUou3ixr0cUFRnz3va6Ku0YR8aW2wfoHaSfqIArPkQANHgt8-4UPa69hHpkrae-J5tx2IE9ouRfxk2mjXbN8vZ5u9dP0aru8pt_Pvo1mxeL6IFVk3GFDFtlQxWcFPDuVZxgD2SC5LhG3hOMJRLZ_zSz6UU5rixrd0wlA_VuTAdxzU=w350-h155-no?authuser=0)
 
 
                                                                    
@@ -50,6 +50,12 @@ ________________________________________________________________________________
 - [x] Write a function that produces output according with conversion specifiers ***c***, ***s***, and ***%***.
 - [x] Handle conversion specifiers ***d***, ***i***.
 - [x] Create a man page for your function.
+
+____________________________________________________________________________________________________________________
+
+## Authors
+- Diana Marcela Banguera | [dianabanguera](https://github.com/dianabanguera)
+- Pablo Emilio Agudelo | [Mr-emilio](https://github.com/Mr-emilio)
 
 
 
