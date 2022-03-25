@@ -31,15 +31,8 @@ int _printf(const char *format, ...)
 		else if (format[index] == '%')
 		{
 			funciones = specifiers(&format[index + 1]);
-			if (funciones != NULL)
-			{
-				contador += funciones(object);
-				index++;
-			}
-			else
-			{
-				_printf("%%%c", format[index + 1]);
-			}
+			contador += (funciones) ? funciones(object) : _printf("%%%c", format[index + 1]);
+			index++;
 		}
 		index++;
 	}
